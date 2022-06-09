@@ -24,7 +24,11 @@ export default function Nav() {
     <ul className='navbar'>
         { array.map((item)=> {
             return(
-                <li>{ item.name }</li>
+                <li>
+                    <a href='#'>
+                        { item.name }
+                    </a>
+                </li>
             )
         })}
     </ul>

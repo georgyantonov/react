@@ -1,7 +1,9 @@
 .navbar{
     display: flex;
-    font-family: Railway;
+    font-family: Raleway;
     font-weight: 700;
     line-height: 12px;
     color: black;
+    text-transform: uppercase;
+    align-items: center;
 }

@@ -1,6 +1,8 @@
 .App {
   display: flex;
   overflow: hidden;
+  flex-direction: column;
   max-width: 1057px;
   min-height: 100%;
+  margin: 0px auto;
 }

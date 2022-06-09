@@ -1,11 +1,13 @@
-.header{
+header{
+    display: flex;
+    max-width: 1057px;
+    height: 114px;
+    align-items: center;
+    flex-direction: column;
+}
+.header_wrapper{
     display: flex;
     position: absolute;
     top:0;
     flex: 1 1 auto;
 }
-[class*="__container"]{
-    max-width: 1057px;
-    margin: 0px auto;
-  }
-  

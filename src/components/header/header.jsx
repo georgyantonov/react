@@ -5,7 +5,7 @@ function Header({ children }) {
 
   return (
     <header className="header">
-      <div className='header __container'>
+      <div className='header_wrapper'>
       { children } 
       </div>   
     </header>
