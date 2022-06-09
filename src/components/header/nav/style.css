@@ -1,0 +1,7 @@
+.navbar{
+    display: flex;
+    font-family: Railway;
+    font-weight: 700;
+    line-height: 12px;
+    color: black;
+}
