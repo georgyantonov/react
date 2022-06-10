@@ -1,3 +1,22 @@
-.download{
+.button_container{
     flex: 0 0 252px;
+    display: flex;
+    justify-content: flex-end;
+}
+.download{
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    background-color: #4285f4;
+    border-radius: 5px;
+}
+.download p{
+   width: inherit;
+   height: inherit;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fcfdfe;
 }

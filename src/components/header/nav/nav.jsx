@@ -21,7 +21,8 @@ export default function Nav() {
         }
     ]
   return (
-    <ul className='navbar'>
+    <div className='navbar'>
+        <ul>
         { array.map((item)=> {
             return(
                 <li>
@@ -31,6 +32,7 @@ export default function Nav() {
                 </li>
             )
         })}
-    </ul>
+        </ul>
+    </div>
   )
 }

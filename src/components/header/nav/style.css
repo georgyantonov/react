@@ -5,5 +5,14 @@
     line-height: 12px;
     color: black;
     text-transform: uppercase;
-    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+ul li{
+    width: auto;
+    display: inline-block;
 }
