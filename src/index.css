@@ -2,7 +2,6 @@
 body {
   margin: 0;
   font-family: Rubik;
-  font-size: 12px;
   -webkit-font-smoothing: antialiased;
 }
 *{
@@ -19,33 +18,16 @@ body {
 a:focus,a:active{outline: none;}
 
 html,body{
-
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+  font-weight: 700;
 }
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
+button{cursor: pointer;     font-family: Raleway; font-weight: 800; font-size: 10px;}
+a, a:visited{text-decoration: none; color: black; }
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
-img{vertical-align: top;}
-
-
-
-/* Контейнер*/
-
-/* Подключение шрифтов*/
-@font-face {
-  font-family: Rubik;
-  src: url("http://fonts.googleapis.com/css?family=Rubik:regular,700");
-  font-style: normal;
-  font-weight: 400;
+main{
+  max-width: 1057px;
+  min-height: 100%;
 }
-@font-face {
-  font-family: Raleway;
-  src: url('http://fonts.googleapis.com/css?family=Raleway:700,800');
-  font-style: normal;
-  font-weight: 700;
+footer{
+  margin-top: 100%;
 }

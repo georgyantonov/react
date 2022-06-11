@@ -6,33 +6,36 @@ export default function Nav() {
         { 
             id: 0,
             name: "Home",
+            link: "#"
+            
         },
         {
             id: 1,
-            name: "Features"
+            name: "Features",
+            link: "#"
         },
         {
             id: 2,
-            name: "Support"
+            name: "Support",
+            link: "#"
         },
         {
             id: 3,
-            name: "Contact us"
+            name: "Contact us",
+            link: "#"
         }
     ]
   return (
-    <div className='navbar'>
-        <ul>
+    <nav className='navbar'>
         { array.map((item)=> {
             return(
                 <li>
-                    <a href='#'>
+                    <a href={item.link}>
                         { item.name }
                     </a>
                 </li>
             )
         })}
-        </ul>
-    </div>
+    </nav>
   )
 }

@@ -1,18 +1,21 @@
 .navbar{
     display: flex;
+    font-size: 10px;
+    line-height: normal;
+    text-transform: uppercase;
     font-family: Raleway;
     font-weight: 700;
-    line-height: 12px;
     color: black;
-    text-transform: uppercase;
 }
 .navbar ul{
     display: flex;
     flex-direction: row;
-
-    justify-content: space-between;
 }
-ul li{
+nav li{
     width: auto;
-    display: inline-block;
+    display: flex;
+    padding: 0 40px 0 0;
+}
+a{
+    letter-spacing: 1px;
 }

@@ -4,9 +4,9 @@ import React from 'react'
 export default function Button() {
   return (
     <div className='button_container'>
-        <div className='download'>
+        <button className='download'>
             <p>Download</p>
-        </div>
+        </button>
     </div>
   )
 }

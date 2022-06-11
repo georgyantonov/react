@@ -1,3 +1,5 @@
 .logo a{
+    display: flex;
     margin-right: auto;
+    justify-content: flex-start;
     }
