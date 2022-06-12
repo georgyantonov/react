@@ -1,5 +1,6 @@
 import React from 'react'
 import image1 from "./Group 14.png"
+import image2 from "./Group 25.png"
 import './style.css'
 
 export default function Main() {
@@ -17,6 +18,11 @@ export default function Main() {
           <div className='start_img'>
             <img src={image1} alt="Doctor" />
           </div>
+      </div>
+      <div className='video_links'>
+        <a href="https://www.youtube.com/">
+          <img src={image2} alt="YouTube" />
+        </a>
       </div>
     </main>
   )

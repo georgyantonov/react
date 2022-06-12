@@ -52,5 +52,16 @@ button p{
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 10px;
+}
+.video_links{
+    display: flex;
+    max-width: 100%;
+    min-height: 154px;
+    align-items: center;
 
+}
+.video_links a{
+    width:fit-content;
+    height: fit-content;
+    margin-left: 18px;
 }
