@@ -3,7 +3,7 @@ main{
     max-height: 100%;
     margin-top: 39px;
 }
-.first_screen{
+.get_started{
     display: flex;
     flex-direction: row;
 }
@@ -14,16 +14,19 @@ main{
     align-self: center;
     margin-left: 18px;
 }
-.start h1{
+h1{
     font-family: 'Rubik';
     font-weight: 700;
     font-size: 44px;
     margin-bottom: 12px;
 }
-h1 span{
+.blue{
     color: #4285F4;
 }
-.start h2{
+.orange{
+    color: #EC5863;
+}
+h2{
     font-family: 'Rubik';
     font-weight:400;
     font-size: 12px;
@@ -64,4 +67,32 @@ button p{
     width:fit-content;
     height: fit-content;
     margin-left: 18px;
+}
+.stay_safe{
+    display: flex;
+    flex-direction: row;
+    min-height: 700px;
+    align-items: center;
+    gap: 149px;
+    
+}
+.mobile_wrapper{
+    display: flex;
+    min-width: 338px;
+    height: 542px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+.mobile_wrapper img{
+    width: 229px;
+    height: 471px;
+    margin-left: 14px;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    width: 379px;
+    height: 238px;
+    margin-left: 30px;
 }

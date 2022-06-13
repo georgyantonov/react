@@ -31,7 +31,7 @@ export default function Nav() {
             return(
                 <li>
                     <a href={item.link}>
-                        { item.name }
+                       key = { item.name }
                     </a>
                 </li>
             )
