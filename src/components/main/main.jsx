@@ -28,6 +28,9 @@ export default function Main() {
         </div>
         <div className='stay_safe'>
           <div className='mobile_wrapper'>
+            <div className='rectangle_19'></div>
+            <div className='rectangle_20 small'></div>
+            <div className='rectangle_21 small'></div>
             <img src={image3} alt='App'/>
           </div>
           <div className='features'>

@@ -78,24 +78,53 @@ button p{
     
 }
 .mobile_wrapper{
+    position: relative;
     display: flex;
     min-width: 338px;
     height: 542px;
     align-items: flex-end;
     justify-content: flex-end;
+    margin: 79px 0px 79px 48px;
     
 }
 .mobile_wrapper img{
     width: 229px;
-    height: 471px;
-    margin-left: 14px;
+    height: 459px;
+    margin: 56px 38px 15px 71px;
+    box-shadow: 2px 4px 32px 0px rgba(0, 0, 0, 0.12);
+
 }
 .features{
     display: flex;
     flex-wrap: wrap;
     width: 379px;
     height: 238px;
-    margin-left: 30px;
     max-width: 1057px;
     min-height: 100%;
+}
+.rectangle_19{
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: #EC5863;
+    border-radius: 30px;
+}
+.small{
+    width: 77px;
+    height: 77px;
+    background: #EC5863;
+    border-radius: 30px;
+    z-index: -1;
+    position: absolute;
+}
+.rectangle_20{
+    right: 0;
+    bottom: 92px;
+}
+.rectangle_21{
+    bottom: 0px;
+    left: 32px;
 }
