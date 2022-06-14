@@ -9,6 +9,7 @@ import Main from './components/main/main';
 function App() {
   return (
     <div className="App">
+      <div class="rectangle_15"></div>
       <Header> 
         <Logo></Logo>
         <Nav> </Nav>

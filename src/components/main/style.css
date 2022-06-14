@@ -2,6 +2,7 @@ main{
     max-width: inherit;
     max-height: 100%;
     margin-top: 39px;
+    position: relative;
 }
 .get_started{
     display: flex;
@@ -64,8 +65,8 @@ button p{
 
 }
 .video_links a{
-    width:fit-content;
-    height: fit-content;
+    /* width: fit-content;
+    height: fit-content; */
     margin-left: 18px;
 }
 .stay_safe{
@@ -95,4 +96,6 @@ button p{
     width: 379px;
     height: 238px;
     margin-left: 30px;
+    max-width: 1057px;
+    min-height: 100%;
 }

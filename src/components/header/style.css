@@ -1,6 +1,6 @@
 header{
     display: flex;
-    max-width: 1057px;
+    min-width: 1057px;
     min-height: 114px;
     flex-direction: column;
 
