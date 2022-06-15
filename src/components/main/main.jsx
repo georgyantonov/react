@@ -41,6 +41,24 @@ export default function Main() {
             </button>
           </div>
         </div>
+        <div className="experts_wrapper">
+          <div className="numbers_wrapper">
+          <div className="numbers">
+            <div className="users">
+              <h1>2m</h1>
+              <p>users</p>
+            </div>
+            <div className="countries">
+              <h1>78</h1>
+              <p>countries</p>
+            </div>
+            <div className="experts">
+              <h1>10,000+</h1>
+              <p>medical experts</p>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </main>
   )
