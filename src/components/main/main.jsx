@@ -58,6 +58,9 @@ export default function Main() {
             </div>
           </div>
           </div>
+          <div className="rectangle_23"></div>
+          <div className="rectangle_24"></div>
+          <div className="rectangle_22"></div>
         </div>
       </div>
     </main>

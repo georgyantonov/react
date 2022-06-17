@@ -3,6 +3,7 @@ header{
     min-width: 1057px;
     min-height: 114px;
     flex-direction: column;
+    padding: 0 52px;
 
 }
 .header_wrapper{

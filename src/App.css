@@ -3,11 +3,13 @@
   position: relative;
   overflow: hidden;
   flex-direction: column;
-  max-width: 1152px;
+  max-width: 1256px;
   min-height: 100%;
   margin: 0px auto;
   padding: 0px 52px;
+  z-index: -1;
 }
+
 .rectangle_15{
   overflow: visible;
   position: absolute;

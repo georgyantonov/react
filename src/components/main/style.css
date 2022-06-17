@@ -3,6 +3,7 @@ main{
     max-height: 100%;
     margin-top: 39px;
     position: relative;
+    padding: 0 52px;
 }
 .get_started{
     display: flex;
@@ -65,8 +66,6 @@ button p{
 
 }
 .video_links a{
-    /* width: fit-content;
-    height: fit-content; */
     margin-left: 18px;
 }
 .stay_safe{
@@ -129,14 +128,19 @@ button p{
     left: 32px;
 }
 .experts_wrapper{
+    margin: 0;
+    padding: 0 52px;
+    position: relative;
+    left: -104px;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: row;
     background: #FAFBFD;
+    width: 1256px;
+    min-height: 700px;
+    z-index: 1;
 }
 .numbers_wrapper{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,24 +150,39 @@ button p{
     background: #ffffff;
     box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
     border-radius: 16px;
-
+    text-align: center;
+    padding-bottom: 28px;
+    z-index: 2;
 }
 .numbers{
     display: flex;
     justify-content: space-between;
-    gap: auto;
     width: 494px;
     height: 61px;
 }
 
 .users{
-
-
 }
 .numbers h1{
     font-size: 36px;
     color: #EC5863;
+    letter-spacing: 0.14em;
 }
 .numbers p{
     font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.37em;
+}
+.experts_wrapper [class*='rectangle']{
+    background: #EC5863;
+    z-index: 0;
+}
+.rectangle_23{
+    position: absolute;
+    width: 65.75px;
+    height: 65.75px;
+    top: 162.93px;
+    left: 272px;
+    transform: rotate(-30deg);
+    border-radius: 16px;
 }
