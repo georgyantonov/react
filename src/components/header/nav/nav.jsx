@@ -29,11 +29,13 @@ export default function Nav() {
     <nav className='navbar'>
         { array.map((item)=> {
             return(
+                <ul>
                 <li>
                     <a href={item.link}>
                        { item.name }
                     </a>
                 </li>
+                </ul>
             )
         })}
     </nav>

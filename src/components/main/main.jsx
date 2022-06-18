@@ -3,6 +3,7 @@ import image1 from "./Group 14.png"
 import image2 from "./Group 25.png"
 import image3 from './Group 3.png'
 import './style.css'
+import image4 from'./Group 26.png'
 
 export default function Main() {
   return (
@@ -61,6 +62,18 @@ export default function Main() {
           <div className="rectangle_23"></div>
           <div className="rectangle_24"></div>
           <div className="rectangle_22"></div>
+          <div className="talk">
+            <div className="talk_features">
+              <h1>Talk to <span className="blue">experts.</span></h1>
+              <h2>Book appointments or submit queries into thousands of forums concerning health issues and prevention against noval Corona Virus.</h2>
+              <button>
+                <p>Features</p>
+              </button>
+            </div>
+            <div className="talk_img">
+              <img src={image4} alt="Experts" />
+            </div>
+          </div>
         </div>
       </div>
     </main>
