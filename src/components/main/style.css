@@ -210,3 +210,56 @@ button p{
 .talk_features{
     padding: 50px 0px 0px 40px;
 }
+.healthcare_wrapper{
+    min-width: 700px;
+    max-height: 551px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 80px auto 46px auto;
+}
+.card_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+    align-content: center;
+}
+.card{
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
+    width: 278.17px;
+    height: 276.52px;
+    padding: 36.65px 17.72px;
+}
+.card .img{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    margin: auto;
+}
+.card h1{
+    margin-top: 57px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 138.5%;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+.card p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 138.5%;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #616161;
+}

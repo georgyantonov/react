@@ -4,6 +4,9 @@ import image2 from "./Group 25.png"
 import image3 from './Group 3.png'
 import './style.css'
 import image4 from'./Group 26.png'
+import icon from './Vector.svg'
+import icon2 from './Vector2.svg'
+import icon3 from './Vector3.svg'
 
 export default function Main() {
   return (
@@ -75,6 +78,35 @@ export default function Main() {
             </div>
           </div>
         </div>
+        <div className="healthcare_wrapper">
+            <div className="description">
+              <h1><span className="orange">Healthcare</span> at your Fingertips.</h1>
+              <h2>Bringing premium healthcare features to your fingertips. User friendly mobile platform to <br/> bring healthcare to your fingertips. Signup and be a part of the new health culture.</h2>
+            </div>
+            <div className="card_container">
+              <div className="card">
+                <div className="img">
+                  <img src={icon} alt="" />
+                </div>
+                <h1>Symptom checker</h1>
+                <p>Check if you are infected by COVID-19 with our Symptom Checker</p>
+              </div>
+              <div className="card">
+                <div className="img">
+                <img src={icon2} alt="" />
+                </div>
+                <h1>24x7 Medical support</h1>
+                <p>Consult with 10,000+ health workers about your concerns.</p>
+              </div>
+              <div className="card">
+                <div className="img">
+                <img src={icon3} alt="" />
+                </div>
+                <h1>Conditions</h1>
+                <p>Bringing premium healthcare features to your fingertips.</p>
+              </div>
+            </div>
+          </div>
       </div>
     </main>
   )

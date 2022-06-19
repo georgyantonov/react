@@ -1,0 +1,14 @@
+footer{
+    min-height: 149px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+.footer_wrapper{
+    width: inherit;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    gap: 57px;
+}  
