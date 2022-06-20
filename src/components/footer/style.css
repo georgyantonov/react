@@ -12,3 +12,7 @@ footer{
     flex-direction: row;
     gap: 57px;
 }  
+.footer_wrapper a img{
+  width: auto;
+  height: auto;
+}

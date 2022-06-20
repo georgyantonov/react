@@ -1,6 +1,6 @@
 import React from 'react'
-import logo1 from './image 1.png'
-import logo2 from './image 2.png'
+import logo1 from './AS.svg'
+import logo2 from './GP.svg'
 import './style.css'
 
 export default function Footer() {
