@@ -19,3 +19,37 @@ nav li{
 a{
     letter-spacing: 0.14em;
 }
+.mobile_nav{
+    display: none;
+}
+@media (max-width: 871.98px) {
+    .navbar{
+        display: none;
+    }
+    .mobile_nav{
+        display: flex;
+        
+    }
+    .mobile_nav .burger{
+        position: fixed;
+        top: 40px;
+        right: 40px;
+        height: 40px;
+        width: 40px;
+        margin-right: auto;
+        color: white;
+        background: #4285f4;
+        order: 3;
+        border-radius: 20px;
+        z-index: 10;
+        order: 5;
+    }
+    .header_wrapper .button_container{
+
+        top: 40px;
+        left: 40px;
+        position: fixed;
+        z-index: 10;
+    }
+
+}

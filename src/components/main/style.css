@@ -313,3 +313,41 @@ button p{
     top: -40px;
     left: 966px;
 }
+@media (max-width: 871.98px){
+    main{
+        max-width: 850px;
+    }
+     .main_screen .get_started{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .start{
+        
+        align-items: center;
+    }
+    .main_screen .start_img img{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main_screen .video_links{
+        justify-content: center;
+    }
+    .main_screen .stay_safe{
+        flex-direction: column;
+        gap:0;
+    }
+    .main_screen .stay_safe .mobile_wrapper{
+        margin: 15px ;
+    }
+    .main_screen .stay_safe .features{
+        margin: 15px 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

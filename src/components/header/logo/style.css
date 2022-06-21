@@ -3,3 +3,9 @@
     margin-right: auto;
     justify-content: flex-start;
     }
+    @media (max-width: 871.98px) {
+        .header_wrapper .logo{
+            display: none;
+
+        }
+    }

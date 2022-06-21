@@ -1,10 +1,11 @@
 import './App.css';
 import Header from './components/header/header';
-import Nav from './components/header/nav/nav';
 import Logo from './components/header/logo/logo';
 import Button from './components/header/button/button';
 import Footer from './components/footer/footer';
 import Main from './components/main/main';
+import Navmobile from './components/header/nav/navmobile'
+import Navdesktop from './components/header/nav/navdesktop'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <div className="rectangle_15"></div>
       <Header> 
         <Logo></Logo>
-        <Nav> </Nav>
+        <Navmobile/>
+        <Navdesktop/>
         <Button></Button>
       </Header>
       <Main></Main>

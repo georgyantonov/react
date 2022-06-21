@@ -18,9 +18,16 @@ header{
     margin-right: auto;
 }
 @media (max-width: 871.98px) {
+    .header_wrapper{
+        display: flex;
+        margin: auto;
+        padding: auto;
+        justify-content: space-between;
+        }
     .logo{
         width: 40px;
         overflow: hidden;
+        margin-right: 0;
     }
     .button_container{
         display: flex;
