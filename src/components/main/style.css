@@ -36,6 +36,7 @@ h2{
     letter-spacing: 0.075em;
     color: #616161;
     margin-bottom: 24px;
+    margin-top: 0px;
 }
 button{
     text-transform: uppercase;
@@ -53,7 +54,7 @@ button p{
     justify-content: center;
     align-items: center;
     color: #fcfdfe;
-    letter-spacing: 0.014em;
+    letter-spacing: 0.14em;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 10px;
@@ -61,7 +62,7 @@ button p{
 .video_links{
     display: flex;
     max-width: 100%;
-    min-height: 154px;
+    min-height: 155px;
     align-items: center;
 
 }
@@ -71,10 +72,14 @@ button p{
 .stay_safe{
     display: flex;
     flex-direction: row;
-    min-height: 700px;
+    min-height: 650px;
     align-items: center;
     gap: 149px;
     
+}
+.stay_safe h1{
+    margin: 0;
+    line-height: 126%;
 }
 .mobile_wrapper{
     position: relative;
@@ -89,7 +94,7 @@ button p{
 .mobile_wrapper img{
     width: 229px;
     height: 459px;
-    margin: 56px 38px 15px 71px;
+    margin: 56px 38px 28px 71px;
     box-shadow: 2px 4px 32px 0px rgba(0, 0, 0, 0.12);
 
 }
@@ -121,7 +126,7 @@ button p{
 }
 .rectangle_20{
     right: 0;
-    bottom: 92px;
+    bottom: 110px;
 }
 .rectangle_21{
     bottom: 0px;
@@ -165,7 +170,7 @@ button p{
     font-size: 36px;
     color: #EC5863;
     letter-spacing: 0.14em;
-    margin-bottom: 0;
+    margin: 0;
 }
 .numbers p{
     font-size: 11px;
@@ -180,16 +185,16 @@ button p{
 .rectangle_23{
     width: 65.75px;
     height: 65.75px;
-    top: 162.93px;
-    left: 272px;
+    top: 171.93px;
+    left: 283px;
     transform: rotate(-30deg);
     border-radius: 16px;
 }
 .rectangle_24{
     width: 96.96px;
     height: 96.96px;
-    left: 510px;
-    top: 53px;
+    left: 521px;
+    top: 62px;
     border-radius: 30px;
     transform: rotate(105deg);
 }
@@ -198,19 +203,24 @@ button p{
     height: 127.47px;
     border-radius: 30px;
     transform: rotate(-30deg);
-    left: 856px;
-    top: 80px;
+    left: 882px;
+    top: 102px;
 }
 .talk{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding:  0 56px;
+    gap: 83px;
 }
 .talk_features{
     padding: 50px 0px 0px 40px;
 }
+.talk_features h1{
+    margin: 0;
+}
 .healthcare_wrapper{
+    position: relative;
     min-width: 700px;
     max-height: 551px;
 }
@@ -221,6 +231,13 @@ button p{
     align-items: center;
     text-align: center;
     margin: 80px auto 46px auto;
+    gap: 14px;
+}
+.description h1{
+    margin: 0;
+}
+.description h2{
+
 }
 .card_container{
     display: flex;
@@ -229,6 +246,8 @@ button p{
     justify-content: center;
     gap: 72px;
     align-content: center;
+    position: relative;
+    z-index: 1;
 }
 .card{
     box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
@@ -236,6 +255,8 @@ button p{
     width: 278.17px;
     height: 276.52px;
     padding: 36.65px 17.72px;
+    overflow: hidden;
+    background: #FFFFFF;
 }
 .card .img{
     width: auto;
@@ -262,4 +283,33 @@ button p{
     text-align: center;
     letter-spacing: 0.08em;
     color: #616161;
+}
+.rec_healthcare{
+    position: absolute;
+    z-index: -1;
+    background: #EC5863;
+}
+.first_rec{
+    border-radius: 16px;
+    top: auto;
+    left: 16px;
+    bottom: -27px;
+}
+.second_rec{
+    width: 96.96px;
+    height: 96.96px;
+    border-radius: 30px;
+    transform: rotate(105deg);
+    left: 264px;
+    top:35px;
+}
+.third_rec{
+    left: 615px;
+    top: 167px;
+    width: 127.47px;
+    height: 127.47px;
+}
+.fourth_rec{
+    top: -40px;
+    left: 966px;
 }

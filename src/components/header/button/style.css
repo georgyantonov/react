@@ -1,5 +1,5 @@
 .button_container{
-    flex: 0 0 252px;
+    flex: 0 0 238px;
     display: flex;
     justify-content: flex-end;
 }
@@ -20,4 +20,10 @@
    align-items: center;
    color: #fcfdfe;
    letter-spacing: 2px;
+}
+@media (max-width: 871.98px) {
+    .button_container{
+        display: flex;
+        flex: 0 0 130px;
+    }
 }

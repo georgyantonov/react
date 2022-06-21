@@ -68,7 +68,7 @@ export default function Main() {
           <div className="talk">
             <div className="talk_features">
               <h1>Talk to <span className="blue">experts.</span></h1>
-              <h2>Book appointments or submit queries into thousands of forums concerning health issues and prevention against noval Corona Virus.</h2>
+              <h2>Book appointments or submit queries into thousands of<br/> forums concerning health issues and prevention<br/> against noval Corona Virus.</h2>
               <button>
                 <p>Features</p>
               </button>
@@ -105,6 +105,10 @@ export default function Main() {
                 <h1>Conditions</h1>
                 <p>Bringing premium healthcare features to your fingertips.</p>
               </div>
+              <div className="rectangle_23 rec_healthcare first_rec"></div>
+              <div className="rectangle_24 rec_healthcare second_rec"></div>
+              <div className="rectangle_22 rec_healthcare third_rec"></div>
+              <div className="rectangle_23 rec_healthcare fourth_rec"></div>
             </div>
           </div>
       </div>

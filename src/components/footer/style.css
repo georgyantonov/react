@@ -6,6 +6,7 @@ footer{
     display: flex;
   }
 .footer_wrapper{
+    margin-top: 51px;
     width: inherit;
     height: 66px;
     display: flex;
@@ -15,4 +16,18 @@ footer{
 .footer_wrapper a img{
   width: auto;
   height: auto;
+}
+.gp{
+  width:160px;
+  height: 55px;
+}
+.gp a img{
+  max-width: 100%;
+}
+.as{
+  width: 165px;
+  height: 66px;
+}
+.as a img{
+  max-width: 100%;
 }

@@ -1,14 +1,14 @@
 header{
     display: flex;
-    min-width: 1057px;
+    max-width: 1057px;
     min-height: 114px;
     flex-direction: column;
-    padding: 0 52px;
+
 
 }
 .header_wrapper{
     display: flex;
-    width: 100%;
+    min-width: 100%;
     justify-content: flex-end;
     flex: 1 1 auto;
     align-items: center;
@@ -16,4 +16,14 @@ header{
 }
 .header_wrapper .logo{
     margin-right: auto;
+}
+@media (max-width: 871.98px) {
+    .logo{
+        width: 40px;
+        overflow: hidden;
+    }
+    .button_container{
+        display: flex;
+        flex: 0 0 130px;
+    }
 }
