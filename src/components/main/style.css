@@ -139,7 +139,6 @@ button p{
     left: -104px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     background: #FAFBFD;
     width: 1256px;
     min-height: 700px;
@@ -179,7 +178,7 @@ button p{
 }
 .experts_wrapper [class*='rectangle']{
     background: #EC5863;
-    z-index: 0;
+    z-index: -1;
     position: absolute;
 }
 .rectangle_23{
@@ -314,8 +313,13 @@ button p{
     left: 966px;
 }
 @media (max-width: 871.98px){
+    .App{
+        padding: 0 10px;
+    }
     main{
-        max-width: 850px;
+        max-width: none;
+        padding: 0;
+        margin-top: 10px;
     }
      .main_screen .get_started{
         display: flex;
@@ -331,7 +335,7 @@ button p{
     }
     .main_screen .start_img img{
         display: block;
-        width: 100%;
+        width: 60%;
         margin: 0 auto;
     }
     .main_screen .video_links{
@@ -343,11 +347,59 @@ button p{
     }
     .main_screen .stay_safe .mobile_wrapper{
         margin: 15px ;
+        justify-content: center;
+    }
+    .main_screen .stay_safe .mobile_wrapper img{
+        margin: 0 15px;
     }
     .main_screen .stay_safe .features{
+        width:auto;
         margin: 15px 0;
         justify-content: center;
         align-items: center;
         text-align: center;
+        flex-direction: column;
+    }
+    .main_screen .experts_wrapper{
+        width: auto;
+        left: 0;
+    }
+    .main_screen .experts_wrapper .talk{
+        flex-direction: column;
+        text-align: center;
+        gap:15px;
+        width: auto;
+    }
+    .main_screen .experts_wrapper .talk .talk_features{
+        padding: 15px 10px;
+        width: auto;
+    }
+    .main_screen .experts_wrapper .numbers_wrapper {
+        flex-direction: column;
+        height: auto;
+        margin-top: 0px;
+    }
+    .main_screen .experts_wrapper .numbers_wrapper .numbers{
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .experts_wrapper [class*='rectangle']{
+        display: none;
+    }
+    .main_screen .healthcare_wrapper {
+        min-width: auto;
+        max-height: 100%;
+    }
+    .main_screen .healthcare_wrapper .description{
+        margin: 10px auto;
+    }
+    .main_screen .healthcare_wrapper .card_container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer_wrapper div{
+        width: 120px;
+        
     }
 }
