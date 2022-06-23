@@ -6,6 +6,7 @@ import Footer from './components/footer/footer';
 import Main from './components/main/main';
 import Navmobile from './components/header/nav/navmobile'
 import Navdesktop from './components/header/nav/navdesktop'
+import { CSSTransition } from 'react-transition-group';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <div className="rectangle_15"></div>
       <Header> 
         <Logo></Logo>
-        <Navmobile/>
+        <Navmobile />
         <Navdesktop/>
         <Button></Button>
       </Header>

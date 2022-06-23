@@ -1,6 +1,7 @@
 import './style.css'
 import React from 'react'
 
+
 export default function Nav() {
     const array = [
         { 
@@ -26,7 +27,8 @@ export default function Nav() {
         }
     ]
   return (
-    <div  className='navbar'>
+    
+    <div  className='navbarmenu'>
         { array.map((item)=> {
             return(
                 <ul>
