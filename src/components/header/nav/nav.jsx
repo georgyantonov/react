@@ -29,17 +29,19 @@ export default function Nav() {
   return (
     
     <div  className='navbarmenu'>
+        <ul>
         { array.map((item)=> {
             return(
-                <ul>
+                
                 <li>
                     <a href={item.link}>
                        { item.name }
                     </a>
                 </li>
-                </ul>
+                
             )
         })}
+        </ul>
     </div>
   )
 }
