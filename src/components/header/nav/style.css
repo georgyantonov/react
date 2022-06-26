@@ -27,8 +27,8 @@ a{
     transform: translateX(0);
     transition: transform 0.5s ease;
 }
-.burger{
-    opacity: 1;
+.mobile_nav .burger{
+    display: none;
 }
 @media (max-width: 871.98px) {
     .navbar{
@@ -68,6 +68,7 @@ a{
         color: white;
     }
     .mobile_nav .burger{
+        display: flex;
         position: fixed;
         top: 40px;
         right: 40px;

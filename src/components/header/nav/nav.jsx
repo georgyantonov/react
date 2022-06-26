@@ -2,7 +2,7 @@ import './style.css'
 import React from 'react'
 
 
-export default function Nav() {
+export default function Nav(props) {
     const array = [
         { 
             id: 0,
@@ -33,8 +33,8 @@ export default function Nav() {
         { array.map((item)=> {
             return(
                 
-                <li>
-                    <a href={item.link}>
+                <li >
+                    <a href={item.link} onClick={()=> props.isMobile && props.linkClick()}>
                        { item.name }
                     </a>
                 </li>

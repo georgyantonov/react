@@ -310,6 +310,12 @@ button p{
     top: -40px;
     left: 966px;
 }
+@media (max-width: 1179px){
+    .experts_wrapper{
+        width: inherit;
+        left:0;
+    }
+}
 @media (max-width: 871.98px){
     .App{
         padding: 0 10px;
