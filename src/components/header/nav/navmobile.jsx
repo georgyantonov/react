@@ -13,6 +13,7 @@ export default function Navmobile() {
   const hamburgerIcon = <CgMenuRound className="burger" onClick = { ()=> setOpen(!open)}/>;
   const closeIcon = <CgCloseO  className="burger" onClick = { ()=> setOpen(!open)}/>;
   const linkClick = () => setOpen(false);
+  
   return (
     
     

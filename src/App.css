@@ -22,6 +22,9 @@
 }
 @media (max-width: 1179px){
   .rectangle_15{
-    width: 100px;
+    width: 5%;
+  }
+  .main_screen .stay_safe{
+    gap:5%;
   }
 }

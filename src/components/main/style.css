@@ -334,7 +334,7 @@ button p{
         justify-content: center;
     }
     .start{
-        
+        margin-left:0;
         align-items: center;
     }
     .main_screen .start_img img{
@@ -363,6 +363,8 @@ button p{
         align-items: center;
         text-align: center;
         flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
     }
     .main_screen .experts_wrapper{
         width: auto;
@@ -372,16 +374,22 @@ button p{
         flex-direction: column;
         text-align: center;
         gap:15px;
-        width: auto;
+        width:100%;
+        padding: 0;
     }
     .main_screen .experts_wrapper .talk .talk_features{
         padding: 15px 10px;
-        width: auto;
+        width: 100%;
+    }
+    .main_screen .experts_wrapper .talk .talk_img img{
+        width: 100%;
     }
     .main_screen .experts_wrapper .numbers_wrapper {
         flex-direction: column;
         height: auto;
-        margin-top: 0px;
+        margin-top: 15px;
+        width: 300px;
+        margin-left: 0;
     }
     .main_screen .experts_wrapper .numbers_wrapper .numbers{
         height: auto;
