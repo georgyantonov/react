@@ -400,7 +400,7 @@ button p{
         display: none;
     }
     .main_screen .healthcare_wrapper {
-        min-width: auto;
+        min-width: 100%;
         max-height: 100%;
     }
     .main_screen .healthcare_wrapper .description{
