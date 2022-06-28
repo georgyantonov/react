@@ -9,7 +9,47 @@ import icon2 from './Vector2.svg'
 import icon3 from './Vector3.svg'
 
 export default function Main() {
+  const numbersArray = [
+    {
+      id:'1',
+      className:'users',
+      h1:"2m",
+      p:'users',
+    },
+    {
+      id:'2',
+      className:'countries',
+      h1:'78',
+      p:'countries',
+    },
+    {
+      id:'3',
+      h1:'10,000+',
+      p:'medical experts'
+    }
+  ]
+  const cardsArray = [
+    {
+      id: '1',
+      img: icon,
+      h1: 'Symptom checker',
+      p:"Check if you are infected by COVID-19 with our Symptom Checker",
+    },
+    {
+      id: '2',
+      img: icon2,
+      h1: '24x7 Medical support',
+      p:"Consult with 10,000+ health workers about your concerns.",
+    },
+    {
+      id: '3',
+      img: icon3,
+      h1: 'Conditions',
+      p:"Bringing premium healthcare features to your fingertips.",
+    },
+  ]
   return (
+    
     <main>
       <div className='main_screen'>
         <div className='get_started'>
@@ -48,18 +88,13 @@ export default function Main() {
         <div className="experts_wrapper">
           <div className="numbers_wrapper">
           <div className="numbers">
-            <div className="users">
-              <h1>2m</h1>
-              <p>users</p>
-            </div>
-            <div className="countries">
-              <h1>78</h1>
-              <p>countries</p>
-            </div>
-            <div className="experts">
-              <h1>10,000+</h1>
-              <p>medical experts</p>
-            </div>
+          { numbersArray.map((item)=>{
+          return(
+            <div className={item.className}>
+              <h1>{item.h1}</h1>
+              <p>{item.p}</p>
+            </div>)
+        })}
           </div>
           </div>
           <div className="rectangle_23"></div>
@@ -84,27 +119,16 @@ export default function Main() {
               <h2>Bringing premium healthcare features to your fingertips. User friendly mobile platform to <br/> bring healthcare to your fingertips. Signup and be a part of the new health culture.</h2>
             </div>
             <div className="card_container">
+            { cardsArray.map((item)=>{
+              return (
               <div className="card">
                 <div className="img">
-                  <img src={icon} alt="" />
+                  <img src={item.img} alt="" />
                 </div>
-                <h1>Symptom checker</h1>
-                <p>Check if you are infected by COVID-19 with our Symptom Checker</p>
-              </div>
-              <div className="card">
-                <div className="img">
-                <img src={icon2} alt="" />
-                </div>
-                <h1>24x7 Medical support</h1>
-                <p>Consult with 10,000+ health workers about your concerns.</p>
-              </div>
-              <div className="card">
-                <div className="img">
-                <img src={icon3} alt="" />
-                </div>
-                <h1>Conditions</h1>
-                <p>Bringing premium healthcare features to your fingertips.</p>
-              </div>
+                <h1>{item.h1}</h1>
+                <p>{item.p}</p>
+              </div>)
+              })}
               <div className="rectangle_23 rec_healthcare first_rec"></div>
               <div className="rectangle_24 rec_healthcare second_rec"></div>
               <div className="rectangle_22 rec_healthcare third_rec"></div>
