@@ -49,7 +49,6 @@ export default function Main() {
     },
   ]
   return (
-    
     <main>
       <div className='main_screen'>
         <div className='get_started'>
