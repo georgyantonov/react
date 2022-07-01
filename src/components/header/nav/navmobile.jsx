@@ -15,8 +15,6 @@ export default function Navmobile() {
   const linkClick = () => setOpen(false);
   
   return (
-    
-    
     <nav className='mobile_nav'>
         {open ? closeIcon : hamburgerIcon}
         <CSSTransition
@@ -27,7 +25,10 @@ export default function Navmobile() {
           onEnter={() => setOpen(true)}
           onClick={() => setOpen(false)}
         >
-        <Nav  isMobile = {true} linkClick = {linkClick} />
+          <Nav  
+            isMobile={true} 
+            linkClick={linkClick}   
+          />
         </CSSTransition>
     </nav>
   )

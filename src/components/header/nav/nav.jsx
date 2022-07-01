@@ -1,9 +1,11 @@
 import './style.css'
 import React from 'react'
+import { useState } from 'react'
 
 
 export default function Nav(props) {
-    const array = [
+    console.log(props)
+    const [array, setArray] = useState([
         { 
             id: 0,
             name: "Home",
@@ -25,17 +27,17 @@ export default function Nav(props) {
             name: "Contact us",
             link: "#"
         }
-    ]
+    ]) 
   return (
     
     <div  className='navbarmenu'>
         <ul>
-        { array.map((item)=> {
+        { array.map(({id, name, link}, index)=> {
             return(
                 
-                <li >
-                    <a href={item.link} onClick={()=> props.isMobile && props.linkClick()}>
-                       { item.name }
+                <li key={id}>
+                    <a href={link} onClick={()=> props.isMobile && props.linkClick()}>
+                       { name }
                     </a>
                 </li>
                 
