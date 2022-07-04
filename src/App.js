@@ -7,6 +7,7 @@ import Main from './components/main/main';
 import Navmobile from './components/header/nav/navmobile'
 import Navdesktop from './components/header/nav/navdesktop'
 
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
         <Navdesktop/>
         <Button></Button>
       </Header>
-      <Main></Main>
+      <Main>
+      </Main>
       <Footer></Footer>
     </div>
   );
