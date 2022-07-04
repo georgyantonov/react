@@ -9,35 +9,35 @@ export default function Nav(props) {
         { 
             id: 0,
             name: "Home",
-            link: "#"
-            
+            url: "#",
         },
         {
             id: 1,
             name: "Features",
-            link: "#"
+            url: "#",
         },
         {
             id: 2,
             name: "Support",
-            link: "#"
+            url: "#",
         },
         {
             id: 3,
             name: "Contact us",
-            link: "#"
+            url: "#",
         }
-    ]) 
+    ]) ;
+
   return (
     
     <div  className='navbarmenu'>
         <ul>
-        { array.map(({id, name, link}, index)=> {
+        { array.map(({id, name, url, scr}, index)=> {
             return(
                 
                 <li key={id}>
-                    <a href={link} onClick={()=> props.isMobile && props.linkClick()}>
-                       { name }
+                    <a href={url} onClick={()=> props.isMobile && props.linkClick() } >
+                       { name } 
                     </a>
                 </li>
                 

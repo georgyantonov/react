@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from './components/header/header';
 import Logo from './components/header/logo/logo';
 import Button from './components/header/button/button';
