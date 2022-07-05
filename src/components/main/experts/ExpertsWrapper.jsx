@@ -22,22 +22,22 @@ export default function ExpertsWrapper() {
         }
       ]
   return (
-    <div className="experts_wrapper">
-    <div className="numbers_wrapper">
-    <div className="numbers">
-    { numbersArray.map((item)=>{
-    return(
-      <div className={item.className}>
-        <h1>{item.h1}</h1>
-        <p>{item.p}</p>
-      </div>)
-  })}
-    </div>
-    </div>
-    <div className="rectangle_23"></div>
-    <div className="rectangle_24"></div>
-    <div className="rectangle_22"></div>
-    <div className="talk">
+    <div className="experts_wrapper" id='experts'>
+      <div className="numbers_wrapper">
+        <div className="numbers">
+          { numbersArray.map((item)=>{
+          return(
+          <div className={item.className}>
+          <h1>{item.h1}</h1>
+          <p>{item.p}</p>
+          </div>)
+          })}
+        </div>
+      </div>
+      <div className="rectangle_23"></div>
+      <div className="rectangle_24"></div>
+      <div className="rectangle_22"></div>
+      <div className="talk" id='talk'>
       <div className="talk_features">
         <h1>Talk to <span className="blue">experts.</span></h1>
         <h2>Book appointments or submit queries into thousands of<br/> forums concerning health issues and prevention<br/> against noval Corona Virus.</h2>

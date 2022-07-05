@@ -27,7 +27,7 @@ export default function Healthcare() {
       ]
 
   return (
-    <div className="healthcare_wrapper">
+    <div className="healthcare_wrapper" id='healthcare'>
             <div className="description">
               <h1><span className="orange">Healthcare</span> at your Fingertips.</h1>
               <h2>Bringing premium healthcare features to your fingertips. User friendly mobile platform to <br/> bring healthcare to your fingertips. Signup and be a part of the new health culture.</h2>

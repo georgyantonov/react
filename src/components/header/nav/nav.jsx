@@ -2,29 +2,28 @@ import './style.css'
 import React from 'react'
 import { useState } from 'react'
 
-
 export default function Nav(props) {
-    console.log(props)
+
     const [array, setArray] = useState([
         { 
             id: 0,
             name: "Home",
-            url: "#",
+            url: "#video",
         },
         {
             id: 1,
             name: "Features",
-            url: "#",
+            url: "#experts",
         },
         {
             id: 2,
             name: "Support",
-            url: "#",
+            url: "#talk",
         },
         {
             id: 3,
             name: "Contact us",
-            url: "#",
+            url: "#healthcare",
         }
     ]) ;
 
@@ -32,7 +31,7 @@ export default function Nav(props) {
     
     <div  className='navbarmenu'>
         <ul>
-        { array.map(({id, name, url, scr}, index)=> {
+        { array.map(({id, name, url}, index)=> {
             return(
                 
                 <li key={id}>

@@ -9,6 +9,18 @@ import Navdesktop from './components/header/nav/navdesktop'
 
 
 function App() {
+  const anchors = document.querySelectorAll('a[href*="#"]')
+for (let anchor of anchors){
+    anchor.addEventListener('click', function(event){
+        event.preventDefault();
+        const id = anchor.getAttribute('href')
+        document.querySelector('' +id).scrollIntoView({
+            behavior:'smooth',
+            block:'start'
+        })
+    },
+);
+};
   return (
     <div className="App">
       <div className="rectangle_15"></div>

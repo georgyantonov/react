@@ -3,7 +3,7 @@ import image2 from "./Group 25.png"
 
 export default function VideoLinks() {
   return (
-    <div className='video_links' id='0'>
+    <div className='video_links' id='video'>
           <a href="https://www.youtube.com/">
             <img src={image2} alt="YouTube" />
           </a>
