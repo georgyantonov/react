@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './style.scss'
 import GetStarted from './get_started/get_started'
 import VideoLinks from './videolinks/VideoLinks'
 import StaySafe from './staysafe/StaySafe'

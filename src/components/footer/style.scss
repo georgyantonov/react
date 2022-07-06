@@ -1,0 +1,29 @@
+footer{
+    min-height: 149px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    .footer_wrapper{
+      margin-top: 51px;
+      width: inherit;
+      height: 66px;
+      display: flex;
+      flex-direction: row;
+      gap: 57px;
+        .gp{
+          width:160px;
+          height: 55px;
+          a img{
+            max-width: 100%;
+          }
+        }
+        .as{
+          width: 165px;
+          height: 66px;
+          a img{
+            max-width: 100%;
+          }
+        }
+  }  
+  }

@@ -1,5 +1,5 @@
 import Nav from "./nav";
-import './style.css'
+import './style.scss'
 import React from 'react'
 import {CgMenuRound} from 'react-icons/cg'
 import {CgCloseO} from 'react-icons/cg'
