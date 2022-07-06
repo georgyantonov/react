@@ -2,8 +2,21 @@ import './style.css'
 import React from 'react'
 import { useState } from 'react'
 
-export default function Nav(props) {
+const anchors = document.querySelectorAll('a[href^="#"]')
+for (let anchor of anchors){
+    const id = anchor.getAttribute('href')
+    anchor.addEventListener('click', function(event){
+        event.preventDefault();
+        document.querySelector('' +id).scrollIntoView({
+            behavior:'smooth',
+            block:'start'
+        })
+    },
+    
+);
+}
 
+export default function Nav(props) {
     const [array, setArray] = useState([
         { 
             id: 0,
@@ -35,7 +48,7 @@ export default function Nav(props) {
             return(
                 
                 <li key={id}>
-                    <a href={url} onClick={()=> props.isMobile && props.linkClick() } >
+                    <a href={url} onClick={()=>   props.isMobile && props.linkClick() } >
                        { name } 
                     </a>
                 </li>

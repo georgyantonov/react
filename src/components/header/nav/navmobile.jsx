@@ -13,7 +13,6 @@ export default function Navmobile() {
   const hamburgerIcon = <CgMenuRound className="burger" onClick = { ()=> setOpen(!open)}/>;
   const closeIcon = <CgCloseO  className="burger" onClick = { ()=> setOpen(!open)}/>;
   const linkClick = () => setOpen(false);
-  
   return (
     <nav className='mobile_nav'>
         {open ? closeIcon : hamburgerIcon}
@@ -27,7 +26,7 @@ export default function Navmobile() {
         >
           <Nav  
             isMobile={true} 
-            linkClick={linkClick}   
+            linkClick={linkClick}
           />
         </CSSTransition>
     </nav>
