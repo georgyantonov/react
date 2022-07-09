@@ -9,7 +9,7 @@ import Navdesktop from './components/header/nav/navdesktop'
 
 
 function App() {
- 
+
   return (
     <div className="App">
       <div className="rectangle_15"></div>

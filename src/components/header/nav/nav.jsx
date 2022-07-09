@@ -2,19 +2,6 @@ import './style.scss'
 import React from 'react'
 import { useState } from 'react'
 
-const anchors = document.querySelectorAll('a[href^="#"]')
-for (let anchor of anchors){
-    const id = anchor.getAttribute('href')
-    anchor.addEventListener('click', function(event){
-        event.preventDefault();
-        document.querySelector('' +id).scrollIntoView({
-            behavior:'smooth',
-            block:'start'
-        })
-    },
-    
-);
-}
 
 export default function Nav(props) {
     const [array, setArray] = useState([
@@ -39,7 +26,6 @@ export default function Nav(props) {
             url: "#healthcare",
         }
     ]) ;
-
   return (
     
     <div  className='navbarmenu'>
@@ -47,8 +33,8 @@ export default function Nav(props) {
         { array.map(({id, name, url}, index)=> {
             return(
                 
-                <li key={id}>
-                    <a href={url} onClick={()=>   props.isMobile && props.linkClick() } >
+                <li  key={id}>
+                    <a className='nav_item' href={url} onClick={()=>   props.isMobile && props.linkClick() } >
                        { name } 
                     </a>
                 </li>
