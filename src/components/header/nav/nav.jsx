@@ -26,29 +26,28 @@ export default function Nav(props) {
             url: "#healthcare",
         }
     ]) ;
-    window.onload = function(){
-        const anchors = document.querySelectorAll('.nav_item')
-        for (const anchor of anchors){
-        if (anchor){ console.log('да')}
-          const id = anchor.getAttribute('href')
-          anchor.addEventListener('click', function(event){
-              event.preventDefault();
-              document.querySelector('' +id).scrollIntoView({
-                  behavior:'smooth',
-                  block:'start'
-              })
-          }
-      );
-      }}
+    function handleClick(e){
+        console.log(e)
+        const closest = e.target.closest('li > a')
+        const closestId = closest.id
+        console.dir(closestId)
+        const anchor = document.querySelector(`${closestId}`)
+        console.log(anchor)
+        anchor.scrollIntoView({
+            behavior: "smooth",
+            block:"start"
+        })
+    }
+
   return (
     
     <div  className='navbarmenu'>
-        <ul>
+        <ul onClick={(e)=>handleClick(e)}>
         { array.map(({id, name, url}, index)=> {
             return(
                 
                 <li  key={id}>
-                    <a className='nav_item' href={url} onClick={()=>   props.isMobile && props.linkClick() } >
+                    <a className='nav_item' id={url} onClick={()=>   props.isMobile && props.linkClick() } >
                        { name } 
                     </a>
                 </li>
