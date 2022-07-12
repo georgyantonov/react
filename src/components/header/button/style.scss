@@ -20,6 +20,52 @@
             letter-spacing: 2px;
          }
     }
+    .download_wrapper{
+        position: fixed;
+        z-index: 100;
+        top: 37.5%;
+        left: 37.5%;
+        width: 25%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 4px 32px 0px rgba(29, 24, 24, 0.12);
+        // transform: translate(-50%, -50%) scale(0);
+        .close{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+        }
+        .close:before,
+        .close:after {
+            content: "";
+            position: absolute;
+            top: 15px;
+            left: 10px;
+            width: 26px;
+            height: 4px;
+            background: #EC5863;
+        }
+        .close:before {
+            transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .close:after {
+            transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+        .download_wrapper_content{
+        h1{
+            margin-bottom: 10%;
+        }}
+    }
     @media (max-width: 871.98px) {
         .button_container{
             display: flex;
