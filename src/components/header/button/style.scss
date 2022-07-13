@@ -34,7 +34,8 @@
         background-color: white;
         border-radius: 20px;
         box-shadow: 2px 4px 32px 0px rgba(29, 24, 24, 0.12);
-        // transform: translate(-50%, -50%) scale(0);
+        opacity: 0; 
+        transition: 1s all;
         .close{
             position: absolute;
             top: 15px;
@@ -65,6 +66,12 @@
         h1{
             margin-bottom: 10%;
         }}
+        
+    }
+    .active{
+        opacity: 1;
+        transition: 1s opacity;
+        transform: scale(1);
     }
     @media (max-width: 871.98px) {
         .button_container{
