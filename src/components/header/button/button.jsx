@@ -4,6 +4,7 @@ import React from 'react'
 
 export default function Button() {
   function openPopUp(e){
+    e.stopPropagation()
     console.dir(e)
     let popup = document.querySelector('.download_wrapper')
     e.preventDefault();
