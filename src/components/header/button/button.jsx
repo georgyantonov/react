@@ -24,7 +24,8 @@ export default function Button() {
               <div className="download_wrapper_content">
                 <div className="close"onClick={(e)=>closePopUp(e)}></div>
                 <h1>Download our App</h1>
-                <button className='download'>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, tenetur eos, natus consequatur voluptatum in cum facilis voluptatem culpa dicta voluptatibus rerum. Quas molestias, deleniti culpa nostrum fugiat et nemo!</h2>
+                <button className='download full'>
                   <p>Download</p>
                 </button>
               </div>

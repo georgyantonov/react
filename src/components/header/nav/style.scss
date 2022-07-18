@@ -40,6 +40,16 @@ li::after{
     width: 20px;
     transform: rotate(100deg)
 }
+@media (max-width: 1179px){
+    .navbar{
+        ul{
+            li{
+                padding-right: 10px;
+
+            }
+        }
+    }
+}
 @media (max-width: 871.98px) {
     .button_container .download{
         top: 40px;
