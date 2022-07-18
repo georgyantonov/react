@@ -31,3 +31,7 @@ main{
     width: auto;
   }
 }
+button:hover {
+  background-color: rgb(212, 35, 35) !important;
+  transition: all 1s;
+}

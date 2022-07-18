@@ -10,12 +10,16 @@
         display: flex;
         flex-direction: row;
         li{
+            height: 13px;
             width: auto;
             display: flex;
             padding: 0 40px 0 0;
+            border-bottom: 2px solid transparent;
             a{
                 letter-spacing: 0.14em;
             }
+            
+            
         }
     }
 }
@@ -25,8 +29,17 @@
 .mobile_nav{
     display: none;
 }
+.navbarmenu a:hover{
+    border-bottom: 2px #EC5863 solid;
+}
 
-
+li::after{
+    height: 2px;
+    content:"";
+    background: #EC5863;
+    width: 20px;
+    transform: rotate(100deg)
+}
 @media (max-width: 871.98px) {
     .button_container .download{
         top: 40px;
