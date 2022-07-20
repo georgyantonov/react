@@ -7,9 +7,7 @@ import Main from './components/main/main';
 import Navmobile from './components/header/nav/navmobile'
 import Navdesktop from './components/header/nav/navdesktop'
 
-
 function App() {
-
   return (
     <div className="App">
       <div className="rectangle_15"></div>

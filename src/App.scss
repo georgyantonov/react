@@ -1,14 +1,13 @@
 .App {
   display: flex;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   flex-direction: column;
   max-width: 1256px;
   min-height: 100%;
   margin: 0px auto;
   padding: 0px 52px;
   .rectangle_15{
-    overflow: visible;
     position: absolute;
     width: 347.29px;
     height: 700px;
