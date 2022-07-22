@@ -17,9 +17,7 @@
             border-bottom: 2px solid transparent;
             a{
                 letter-spacing: 0.14em;
-            }
-            
-            
+            }   
         }
     }
 }
@@ -33,12 +31,14 @@
     border-bottom: 2px #EC5863 solid;
 }
 
-li::after{
-    height: 2px;
-    content:"";
-    background: #EC5863;
-    width: 20px;
-    transform: rotate(100deg)
+li:not(:last-child){
+    &::after{
+        height: 2px;
+        content:"";
+        background: #EC5863;
+        width: 20px;
+        transform: rotate(100deg);
+}
 }
 @media (max-width: 1179px){
     .navbar{
